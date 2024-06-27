@@ -1,0 +1,19 @@
+{
+  "name": "timer-notification",
+  "version": "1.0.0",
+  "description": "some timer with beautifull notification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timer",
+    "notification"
+  ],
+  "author": "Ilya Romanyuk",
+  "license": "ISC",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}
