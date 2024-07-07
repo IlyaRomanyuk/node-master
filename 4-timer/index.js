@@ -6,15 +6,15 @@ const setTimer = (time) => {
   const entries = time.split(' ');
 
   entries.forEach((item) => {
-    if (item.includes('h')) {
+    if (/h/i.test(item)) {
       totalSeconds = totalSeconds + parseInt(item) * 3600;
     }
 
-    if (item.includes('m')) {
+    if (/m/i.test(item)) {
       totalSeconds = totalSeconds + parseInt(item) * 60;
     }
 
-    if (item.includes('s')) {
+    if (/s/i.test(item)) {
       totalSeconds = totalSeconds + parseInt(item);
     }
   });
