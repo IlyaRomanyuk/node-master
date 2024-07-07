@@ -3,3 +3,4 @@ app.js
 characters.js
 event-loop.js
 9-weather-api/node_modules
+/7-package/node_modules
