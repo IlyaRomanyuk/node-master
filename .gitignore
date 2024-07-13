@@ -3,3 +3,5 @@ app.js
 characters.js
 event-loop.js
 /7-package/node_modules
+/10-weather-typescript/node_modules
+/10-weather-typescript/dist
